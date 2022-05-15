@@ -32,7 +32,7 @@ export default function CreateItem() {
       setFileUrl(url)
     } catch (error) {
       console.log('Error uploading file: ', error)
-    }  
+    }
   }
   async function uploadToIPFS() {
     const { name, description, price } = formInput
@@ -48,7 +48,7 @@ export default function CreateItem() {
       return url
     } catch (error) {
       console.log('Error uploading file: ', error)
-    }  
+    }
   }
 
   async function listNFTForSale() {
@@ -70,9 +70,9 @@ export default function CreateItem() {
   }
 
   return (
-    <div className="flex justify-center">
+    <div className="flex justify-center bg-slate-800 h-screen">
       <div className="w-1/2 flex flex-col pb-12">
-        <input 
+        <input
           placeholder="Asset Name"
           className="mt-8 border rounded p-4"
           onChange={e => updateFormInput({ ...formInput, name: e.target.value })}
@@ -90,12 +90,14 @@ export default function CreateItem() {
         <input
           type="file"
           name="Asset"
-          className="my-4"
+          className="my-4 p-2 text-white"
           onChange={onChange}
         />
         {
           fileUrl && (
-            <Image width={250} height={250} alt="nft" className="rounded mt-4" src={fileUrl} />
+            <div className='h-2/5 w-3/4'>
+              <Image width={250} height={250} alt="nft" className="rounded mt-4" src={fileUrl} />
+            </div>
           )
         }
         <button onClick={listNFTForSale} className="font-bold mt-4 bg-pink-500 text-white rounded p-4 shadow-lg">
