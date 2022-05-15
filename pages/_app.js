@@ -14,13 +14,13 @@ function MyApp({ Component, pageProps }) {
         <meta property="twitter:url" content="https://nft-marketplace-polygon-nextjs-josemfche.vercel.app/" />
         <meta property="twitter:title" content="NFTs Marketplace Polygon" />
         <meta property="twitter:description" content="List and sell your NFTs in this Marketplace!" />
-        <meta property="twitter:image" content="https://i.pinimg.com/originals/7f/2a/0b/7f2a0ba00fce14eb7bafbabcc23c2582.png" />
+        <meta property="twitter:image" content="https://www.todofondos.net/wp-content/uploads/4k-abstract-hd-desktop-wallpapers-10010-unity-pixel.-wallpaper-4k-ultra-hd-abstractos-scaled.jpg" />
 
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://nft-marketplace-polygon-nextjs-josemfche.vercel.app/" />
         <meta property="og:title" content="NFTs Marketplace Polygon" />
         <meta property="og:description" content="List and sell your NFTs in this Marketplace!" />
-        <meta property="og:image" content="https://i.pinimg.com/originals/7f/2a/0b/7f2a0ba00fce14eb7bafbabcc23c2582.png" />
+        <meta property="og:image" content="https://www.todofondos.net/wp-content/uploads/4k-abstract-hd-desktop-wallpapers-10010-unity-pixel.-wallpaper-4k-ultra-hd-abstractos-scaled.jpg" />
         <title>NFTs Marketplace Polygon</title>
       </Head>
       <nav className="border-b p-6 bg-slate-800">
